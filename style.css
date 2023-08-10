@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    min-height: 100vh; /* minimo da altura da tela*/
+    background-color: darkgrey;
+}
+
+header{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps; /* as letras ficaram maiusculas suave*/
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+ header a, footer a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+section{ /*todas as section*/
+   padding-top: 10vh; /*altura da tela inteira*/
+   padding-bottom: 10vh;
+   line-height: 2em; /* espaçamento entre linhas*/
+   padding-left: 30px;
+}
+
+section.normal{
+    background-color: #fff;
+    color: black;
+}
+
+section.imagem{
+    background-color: rgb(88, 84, 84);
+    color: #fff;
+}
+
+section.imagem > p{
+    width: 400px;
+    background-color: rgb(51, 49, 49);
+}
+
+footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
